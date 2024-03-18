@@ -1,0 +1,190 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+nav
+{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.logo
+{
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: cursive;
+    margin-right: auto;
+    font-size: 50px;
+    cursor: pointer;
+    padding-left: 5px;
+    
+}
+li
+{
+    display: inline;
+    padding-left: 18px;
+}
+ul
+{
+    margin-left: 350px;
+}
+.active
+{
+    background: whitesmoke;
+    border-radius: 20px;
+    border: 1px solid saddlebrown;
+    color: black;
+    height: 45px;
+}
+nav button
+{
+    width: 110px;
+    height: 45px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    background-color: transparent;
+    border: none; 
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+nav button:hover
+{
+    background: whitesmoke;
+    border-radius: 20px;
+    border: 1px solid saddlebrown;
+    color: black;
+    transform:rotateY(360deg);
+}
+
+.fa-icons
+{
+    font-size: 40px;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.main
+{
+    width: 100%;
+    background-image: url("https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cd1
+{
+    width: 200px;
+    height: 310px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cd1:hover
+{
+    transform: scale(1.2);
+
+}
+table h1{
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: larger;
+    
+}
+table p{
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.img,.img2,.img3,.img4,.img5,.img6,.img7,.img8
+{
+    width: 100%;
+    height: 65%;
+    background-position: center;
+    background-size: contain;
+    border-radius: 5px 5px 0px 0px;
+}
+.img
+{
+    background-image: url("https://images.pexels.com/photos/5778892/pexels-photo-5778892.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+.img2
+{
+    
+    background-image: url("https://images.pexels.com/photos/1556679/pexels-photo-1556679.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.img3
+{
+    background-image: url("https://tse2.mm.bing.net/th?q=BTS+Kpop+Profiles&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247");
+    background-size: contain;
+}
+.img4
+{
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.63QziErhS_Ml1gLTKATENwHaHa?w=183&h=182&c=7&r=0&o=5&pid=1.7");
+}
+.img5
+{
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.bmrGjUrmUV9VC-kWbAmpKgHaE7?w=223&h=180&c=7&r=0&o=5&pid=1.7");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img6
+{
+    background-image: url("https://tse1.mm.bing.net/th/id/OIP.7WHvsB274bMcyPS51pvSkwHaFL?w=193&h=134&c=7&r=0&o=5&pid=1.7");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img7
+{
+    background-image: url("https://th.bing.com/th?id=OSK.jU4Xl7FX28q_6zDgCrmr7AHaLH&w=200&h=200&c=7&rs=1&o=6&pid=SANGAM");
+}
+.img8
+{
+    background-image: url("https://www.bing.com/th?id=OIP.Jj1yS8Y2gyQGlLpcose4owHaH5&w=200&h=200&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+}
+table button
+{
+    margin-left: 60px;
+    margin-top: 5px;
+    height: 25px;
+    width: 70px;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: whitesmoke;
+    border: none; 
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid white;
+} 
+table button:hover
+{
+    background: black;
+    border-radius: 20px;
+    border: 1px solid saddlebrown;
+    color: whitesmoke;
+    transform: rotateX(360deg);
+}
+table
+{
+    margin: auto;
+}
+.div1 h1
+{
+ color: whitesmoke;
+
+ font-family: sans-serif;
+}
